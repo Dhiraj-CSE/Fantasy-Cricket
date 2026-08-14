@@ -1,0 +1,32 @@
+# Virtual Environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# PyInstaller files
+build/
+dist/
+*.spec
+
+# IDE settings
+.vscode/
+.idea/
+
+# Temporary files
+*.log
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Generated installer and release files
+Installer/
+Release/
+
+# Backup and test files
+main_backup.py
+test.py
