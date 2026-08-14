@@ -43,6 +43,39 @@ The project demonstrates practical implementation of **Python programming, GUI d
 | PyInstaller | Creating Windows executable |
 | Inno Setup | Creating Windows installer |
 
+## 🏗️ Project Architecture
+
+```text
+                ┌─────────────────┐
+                │   splash.py     │
+                │ Splash Screen   │
+                └────────┬────────┘
+                         │
+                         ▼
+                ┌─────────────────┐
+                │    login.py     │
+                │  Login System   │
+                └────────┬────────┘
+                         │
+                         ▼
+                ┌─────────────────┐
+                │    main.py      │
+                │ Main Application│
+                └──────┬─────┬────┘
+                       │     │
+          ┌────────────┘     └─────────────┐
+          ▼                                ▼
+┌──────────────────┐              ┌──────────────────┐
+│   cricket.db     │              │   analysis.py    │
+│ SQLite Database  │              │ Data Analysis    │
+└──────────────────┘              └────────┬─────────┘
+                                            │
+                                            ▼
+                                   ┌──────────────────┐
+                                   │   Matplotlib     │
+                                   │ Charts & Insights│
+                                   └──────────────────┘
+
 ## 📂 Project Structure
 
 ```text
