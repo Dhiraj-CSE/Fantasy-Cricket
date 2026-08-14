@@ -51,3 +51,24 @@ Fantasy-Cricket/
 │
 ├── requirements.txt     # Python dependencies
 └── README.md            # Project documentation
+## 📸 Application Screenshots
+
+### 🔐 Login Window
+
+![Login Window](screenshots/login.png)
+
+### 🏏 Main Dashboard
+
+![Main Dashboard](screenshots/main_dashboard.png)
+
+### 📊 Data Analysis Dashboard
+
+![Data Analysis Dashboard](screenshots/analysis.png)
+
+### 🏆 Leaderboard
+
+![Leaderboard](screenshots/leaderboard.png)
+
+### ℹ️ About Window
+
+![About Window](screenshots/about.png)
