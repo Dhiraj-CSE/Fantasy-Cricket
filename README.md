@@ -1,29 +1,36 @@
 # 🏏 Fantasy Cricket Application
 
-A desktop-based Fantasy Cricket application developed using Python. The application allows users to create fantasy teams, manage players, calculate scores, save teams, view leaderboards, and analyze player performance.
+<p align="center">
+  A desktop-based Fantasy Cricket application built using Python, PyQt5, SQLite, and Matplotlib.
+</p>
 
-## 📌 Features
+<p align="center">
 
-- 🔐 User Login System
-- 👥 Player Selection by Category
-  - Batsmen
-  - Bowlers
-  - All-Rounders
-  - Wicket Keepers
-- ➕ Add and Remove Players
-- 💾 Save Fantasy Teams
-- 📂 Open Saved Teams
-- ✏️ Update Existing Teams
-- 🗑️ Delete Teams
-- 🧮 Calculate Fantasy Scores
-- 🏆 Leaderboard
-- 📊 Player Data Analysis Dashboard
-- 📈 Performance Charts and Insights
-- 🌙 Dark Mode
-- ℹ️ About Section
-- 💽 SQLite Database Integration
-- 📦 Windows Executable using PyInstaller
-- 🛠️ Windows Installer created using Inno Setup
+![Python](https://img.shields.io/badge/Python-3.x-blue.svg)
+![PyQt5](https://img.shields.io/badge/PyQt5-GUI-green.svg)
+![SQLite](https://img.shields.io/badge/Database-SQLite-blue.svg)
+![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey.svg)
+
+</p>
+
+## 📌 About the Project
+
+Fantasy Cricket is a desktop application that allows users to create and manage fantasy cricket teams. Users can select players, save teams, calculate fantasy scores, view a leaderboard, and analyze player performance through an interactive data analysis dashboard.
+
+The project demonstrates practical implementation of **Python programming, GUI development, database management, data analysis, data visualization, and application deployment**.
+
+## ✨ Key Highlights
+
+- 🖥️ Interactive desktop GUI using PyQt5
+- 👥 Fantasy team creation and management
+- 💾 Persistent data storage using SQLite
+- 🧮 Fantasy score calculation
+- 🏆 Team leaderboard
+- 📊 Player performance analysis
+- 📈 Data visualization and charts
+- 🌙 Dark mode support
+- 📦 Windows EXE created using PyInstaller
+- 🛠️ Windows installer created using Inno Setup
 
 ## 🛠️ Technologies Used
 
